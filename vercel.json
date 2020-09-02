@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "public": true,
+    "builds": [
+        { "src": "**/*.html", "use": "@vercel/static" },
+        { "src": "**/*.css", "use": "@vercel/static" },
+        { "src": "**/*.js", "use": "@vercel/static" }
+    ],
+    "routes": [
+        { "src": "/threejs/", "dest": "threejs/index.html" },
+        { "src": "/particles/", "dest": "particles/index.html" },
+        { "src": "/snowing/", "dest": "snowing/index.html" },
+        { "src": "/waves_dark/", "dest": "waves_dark/index.html" },
+        { "src": "/waves_light/", "dest": "waves_light/index.html" },
+        { "src": "/waves/", "dest": "waves/index.html" }
+    ]
+}
